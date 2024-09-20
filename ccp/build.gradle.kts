@@ -56,6 +56,7 @@ dependencies {
     implementation(libs.compose.activity)
     implementation(libs.compose.material)
     implementation(libs.compose.tooling.preview)
+    implementation("androidx.compose.material3:material3:1.3.0")
 
     detektPlugins("ru.kode:detekt-rules-compose:1.3.0")
     detektPlugins("io.nlopez.compose.rules:detekt:0.3.3")

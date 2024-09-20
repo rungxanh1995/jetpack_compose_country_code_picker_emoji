@@ -1,5 +1,5 @@
 [versions]
-kotlin = "1.9.22"
+kotlin = "1.9.25"
 dokka = "1.9.10"
 
 ## SDK Versions
@@ -12,22 +12,24 @@ android-gradle-plugin = "8.2.2"
 gradle-versions = "0.50.0"
 detekt = "1.23.3"
 
-accompanist = "0.34.0"
-androidx-activity-compose = "1.8.2"
-androidx-core = "1.12.0"
-androidx-lifecycle = "2.7.0"
-androidx-test-junit = "1.1.5"
+accompanist = "0.36.0"
+androidx-activity-compose = "1.9.2"
+androidx-core = "1.13.1"
+androidx-lifecycle = "2.8.6"
+androidx-test-junit = "1.2.1"
 
 # update version in README when changing below
-compose = "1.6.0"
+compose = "1.7.2"
+# original compose version that works: 1.6.0
 # https://androidx.dev/storage/compose-compiler/repository/
 # https://developer.android.com/jetpack/androidx/releases/compose-compiler
-composeCompiler = "1.5.8"
+composeCompiler = "1.5.15"
+# original composeCompiler version that works: 1.5.8
 
 kotlinx-coroutines = "1.7.3"
 kotlinx-collections-immutable = "0.3.7"
 
-libphonenumber = "8.13.28"
+libphonenumber = "8.13.35"
 
 junit = "4.13.2"
 robolectric = "4.11.1"
